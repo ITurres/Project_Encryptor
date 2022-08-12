@@ -1,38 +1,37 @@
 # Project_Encryptor
 
-lang = EN.
+lang = ES.
 
-Project for Oracle + Alura-Latam Programming Course. 
+Introducción: 
 
-Introduction:
+Proyecto de aprendizaje para el Curso de programación brindado por Oracle + Alura Latam.
 
-Learning project for the Programming Course provided by Oracle + Alura Latam.
+El Proyecto consta de crear un Programa encriptador de texto con JavaScript. A su vez, una vez teniendo la lógica del programa por terminar, estructurar la página con HTML y darle vida con CSS. En este proyecto no se usarán Frameworks.
 
-The project consists of creating a text encryption program with JavaScript. In turn, once the logic of the program is finished, the structure of the page will take place with HTML and give it life with CSS. Frameworks will not be used in this project.
+La consigna a seguir es la siguiente: Las "llaves" de encriptación que utilizaremos son las siguientes:
 
-The instructions to go along with are: The encryption "keys" that are required to use are the following:
+La letra "e" es convertida para "enter"
+La letra "i" es convertida para "imes"
+La letra "a" es convertida para "ai"
+La letra "o" es convertida para "ober"
+La letra "u" es convertida para "ufat"
 
-The letter "e" is converted to "enter"
-The letter "i" is converted to "imes"
-The letter "a" is converted to "ai"
-The letter "o" is converted to "ober"
-The letter "u" is converted to "ufat"
+Requisitos:
 
-Extra requirements:
-- It work only with lowercase letters
-- Letters with accents or special characters should not be used
-- It should be possible to convert a word to the encrypted version as well as return an encrypted word to its original version.
+- Debe funcionar solo con letras minúsculas
+- No deben ser utilizados letras con acentos ni caracteres especiales
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
-E.g:
+Por ejemplo:
 
 "gato" => "gaitober"
 gaitober" => "gato"
 
-The page must have fields for
-insertion of the text to be encrypted or decrypted, and the user must be able to choose between the two options.
-The result should be displayed on the screen.
-Additional features:
-- A button that copies the encrypted/decrypted text for the transfer section, that is, it has the same functionality as ctrl+C or the "copy" option from the applications menu.
+La página debe tener campos para
+inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+El resultado debe ser mostrado en la pantalla.
+Extras:
 
-It should be noted that for the organization of the project, work will be done with Trello and with Figma (the latter, if necessary by the programmer).
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
+Cabe destacar, que para la organización del proyecto, se trabajará con Trello y con Figma (este último, en caso de ser necesario por parte del programador).
