@@ -65,7 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("encryptor-bg.jpg");
+  background-image: url("images/encryptor-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
