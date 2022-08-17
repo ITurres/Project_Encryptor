@@ -3,3 +3,52 @@
     scroll-behavior: smooth;
   }
 }
+
+@keyframes border-colors {
+  0% {
+    border-color: var(--style-lightblue);
+    color: var(--style-lightblue);
+  }
+  25% {
+    border-color: var(--style-pink);
+    color: var(--style-pink);
+  }
+  50% {
+    border-color: var(--style-blue);
+    color: var(--style-blue);
+  }
+  75% {
+    border-color: var(--style-purple);
+    color: var(--style-purple);
+  }
+  100% {
+    border-color: var(--style-lightblue);
+    color: var(--style-lightblue);
+  }
+}
+
+@keyframes box-shadows {
+  0% {
+    box-shadow: 0 0 1.7rem var(--style-lightblue);
+  }
+  25% {
+    box-shadow: 0 0 1.7rem var(--style-purple);
+  }
+  50% {
+    box-shadow: 0 0 1.7rem var(--style-blue);
+  }
+  75% {
+    box-shadow: 0 0 1.7rem var(--style-pink);
+  }
+  100% {
+    box-shadow: 0 0 1.7rem var(--style-lightblue);
+  }
+}
+
+:root {
+  --style-lightblue: rgb(120, 255, 244);
+  --style-pink: rgb(245, 69, 98);
+  --style-purple: rgb(150, 6, 150);
+  --style-blue: rgb(44, 44, 222);
+  --style-black: rgb(24, 23, 23);
+}
