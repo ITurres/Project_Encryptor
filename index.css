@@ -180,3 +180,10 @@ a:hover {
 textarea:focus {
   outline: none;
 }
+
+/*inform Invalid styles*/
+
+.show-i-message {
+  animation: border-colors 1.1s infinite;
+  font-size: 1.2rem;
+}
