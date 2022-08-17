@@ -1,3 +1,8 @@
+function validateCaracters() {
+    let caracPermitted = /^[a-z\s\!\?]{0,}$/;
+    textToEncrypt.value.match(caracPermitted) ? encrypt() : informInvalid();
+  }
+
 function encrypt() {
     const changeTxt = {
       a: "ai",
@@ -29,6 +34,12 @@ function decrypt() {
     let show = (document.getElementById("show_Encrypt").innerHTML =
       changeTxtBack);
     textToEncrypt.value = "";
+  }
+
+  function copyEncrypt() {
+    let textToCopy = document.getElementById("show_Encrypt");
+    textToCopy.select();
+    navigator.clipboard.writeText(textToCopy.value);
   }
 
   // option-1 THIS OPTION does not DECRYPT WORD INTO SHOW TEXTAREA(FIX) or use OPTION-2
