@@ -248,3 +248,18 @@ textarea:focus {
   text-shadow: 0 0 0.2rem;
   padding: 0 2rem 0 2rem;
 }
+
+/*FOOTER*/
+
+.footer {
+  color: var(--style-lightblue);
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  padding: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.author-name {
+  margin-top: 0.2rem;
+  font-size: 1rem;
+}
