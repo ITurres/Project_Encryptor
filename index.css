@@ -220,3 +220,31 @@ textarea:focus {
 .copyEncrypt:hover {
   opacity: 0.8;
 }
+
+/*contact-section-styles*/
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  background: linear-gradient(-180deg, black, gray);
+  height: 92vh;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 1rem 0 1rem;
+  font-size: 1.6rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.contact-links .contact-anchor {
+  animation: border-colors 9s infinite;
+  text-shadow: 0 0 0.2rem;
+  padding: 0 2rem 0 2rem;
+}
