@@ -263,3 +263,11 @@ textarea:focus {
   margin-top: 0.2rem;
   font-size: 1rem;
 }
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 1024px) {
+  .encryption-area {
+    flex-wrap: wrap;
+  }
+}
