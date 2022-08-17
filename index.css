@@ -283,3 +283,10 @@ textarea:focus {
     width: 70%;
   }
 }
+
+@media (max-width: 480px) {
+  .toEncrypt_textArea,
+  .toShow_textArea {
+    height: 20vh;
+  }
+}
