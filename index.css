@@ -290,3 +290,14 @@ textarea:focus {
     height: 20vh;
   }
 }
+
+@media (max-width: 360px) {
+  .title {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .nav-bar ul {
+    gap: 1rem;
+    margin-right: 1.7rem;
+  }
+}
