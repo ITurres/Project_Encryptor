@@ -52,3 +52,23 @@
   --style-blue: rgb(44, 44, 222);
   --style-black: rgb(24, 23, 23);
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("encryptor-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(32, 32, 32);
+}
