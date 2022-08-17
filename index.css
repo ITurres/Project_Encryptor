@@ -187,3 +187,36 @@ textarea:focus {
   animation: border-colors 1.1s infinite;
   font-size: 1.2rem;
 }
+
+/*do-undo BUTTONS STYLE*/
+
+.btns_do_Undo_decrypted,
+.div-copy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.doEncrypt,
+.doDecrypt,
+.copyEncrypt {
+  padding: 0.5em 2em;
+  border-radius: 2rem 1rem;
+  background-color: rgba(23, 23, 23, 0.537);
+  animation: border-colors 9s infinite;
+  border-style: solid;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0.5em 1em;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 0.5rem;
+  cursor: pointer;
+}
+
+.doEncrypt:hover,
+.doDecrypt:hover,
+.copyEncrypt:hover {
+  opacity: 0.8;
+}
