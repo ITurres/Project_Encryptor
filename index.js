@@ -3,6 +3,11 @@ function validateCaracters() {
     textToEncrypt.value.match(caracPermitted) ? encrypt() : informInvalid();
   }
 
+  function informInvalid() {
+    show_invalid_input = document.getElementById("if_invalid_input").innerHTML =
+      "ⓘ Solo letras minusculas y sin acentos";
+  }
+
 function encrypt() {
     const changeTxt = {
       a: "ai",
