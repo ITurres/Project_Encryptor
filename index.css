@@ -123,3 +123,60 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/*TEXTAREA's STYLE*/
+
+.encryption-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 1.5rem;
+  padding: 2rem 0;
+  height: 100vh;
+}
+
+.toEncrypt_Fset {
+  padding: 4vh 5vw 0 5vw;
+  width: 70%;
+  border: none;
+}
+
+.toShow_Fset {
+  padding: 3vh 2.5vw 0 2.5vw;
+  width: 30%;
+  border: none;
+}
+
+.toEncrypt_textArea,
+.toShow_textArea {
+  background-color: transparent;
+  color: var(--style-lightblue);
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  resize: none;
+  width: 100%;
+  padding: 0.7em;
+}
+
+.toShow_textArea {
+  animation: box-shadows 9s infinite;
+  color: var(--style-lightblue);
+  border: none;
+  border-style: solid;
+}
+
+.toShow_textArea:placeholder-shown {
+  color: black;
+  animation: 0;
+}
+
+.toEncrypt_textArea::placeholder {
+  color: var(--style-pink);
+}
+
+textarea:focus {
+  outline: none;
+}
