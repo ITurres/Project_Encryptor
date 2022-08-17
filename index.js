@@ -17,6 +17,37 @@ function encrypt() {
       "";
   }
 
+  //OPTION-2-for-decrypt//
+function decrypt() {
+    let changeTxtBack = textToEncrypt.value
+      .toLowerCase()
+      .replace(/ai/g, "a")
+      .replace(/enter/g, "e")
+      .replace(/imes/g, "i")
+      .replace(/ober/g, "o")
+      .replace(/ufat/g, "u");
+    let show = (document.getElementById("show_Encrypt").innerHTML =
+      changeTxtBack);
+    textToEncrypt.value = "";
+  }
+
+  // option-1 THIS OPTION does not DECRYPT WORD INTO SHOW TEXTAREA(FIX) or use OPTION-2
+// function decrypt() {
+//   const changeTxt = {
+//     ai: "a",
+//     enter: "e",
+//     imes: "i",
+//     ober: "o",
+//     ufat: "u",
+//   };
+//   let textDecrypted = textToEncrypt.value.replace(
+//     /[ai][enter][imes][ober][ufat]/g,
+//     (c) => changeTxt[c]
+//   );
+//   let show = (document.getElementById("show_Encrypt").innerHTML =
+//     textDecrypted);
+// }
+
 let show_invalid_input = "";
 let textToEncrypt = document.querySelector("#text_To_Encrypt");
 // textToEncrypt.focus();//removed for now.11082022
