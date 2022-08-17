@@ -31,6 +31,12 @@ function decrypt() {
     textToEncrypt.value = "";
   }
 
+  function copyEncrypt() {
+    let textToCopy = document.getElementById("show_Encrypt");
+    textToCopy.select();
+    navigator.clipboard.writeText(textToCopy.value);
+  }
+
   // option-1 THIS OPTION does not DECRYPT WORD INTO SHOW TEXTAREA(FIX) or use OPTION-2
 // function decrypt() {
 //   const changeTxt = {
