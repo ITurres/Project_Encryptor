@@ -72,3 +72,54 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(32, 32, 32);
 }
+
+/*NAVBAR*/
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 3;
+  background-color: rgba(27, 27, 27, 0.567);
+  height: 3.5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.title {
+  animation: border-colors 9s infinite;
+  text-shadow: 0 0 0.5rem;
+  border: none;
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  margin: 0 2rem 0 2rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  margin-right: 3rem;
+  gap: 2rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.links_to_sections,
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--style-purple);
+}
+
+.links_to_sections,
+a:hover {
+  color: var(--style-lightblue);
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
