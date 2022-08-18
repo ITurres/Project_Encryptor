@@ -9,7 +9,7 @@ function informInvalid() {
 }
 
 function encrypt() {
-  const changeTxt = {
+  let changeTxt = {
     a: "ai",
     e: "enter",
     i: "imes",
@@ -30,7 +30,6 @@ function encrypt() {
 //OPTION-2-for-decrypt//
 function decrypt() {
   let changeTxtBack = textToEncrypt.value
-    .toLowerCase()
     .replace(/ai/g, "a")
     .replace(/enter/g, "e")
     .replace(/imes/g, "i")
@@ -59,7 +58,7 @@ button_copyEncrypt.onclick = copyEncrypt;
 
 // option-1 THIS OPTION does not DECRYPT WORD INTO SHOW TEXTAREA(FIX) or use OPTION-2
 // function decrypt() {
-//   const changeTxt = {
+//   let changeTxt = {
 //     ai: "a",
 //     enter: "e",
 //     imes: "i",
