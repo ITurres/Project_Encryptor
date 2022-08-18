@@ -103,6 +103,12 @@ body {
   font-size: 1.3rem;
 }
 
+/*IF gap not supported*/
+/* .li-to-sections + .li-to-sections {
+  margin-left: 1.5rem;
+} */
+/*above:: must to be replaced on media queries as well*/
+
 .links_to_sections,
 a {
   cursor: pointer;
