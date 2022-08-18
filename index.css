@@ -163,6 +163,7 @@ a:hover {
 
 .toShow_textArea {
   animation: box-shadows 9s infinite;
+  -webkit-animation: box-shadows 9s infinite;
   color: var(--style-lightblue);
   border: none;
   border-style: solid;
@@ -230,6 +231,7 @@ textarea:focus {
   background-color: gray;
   background: linear-gradient(-180deg, black, gray);
   height: 92vh;
+  margin-top: 15%;
 }
 
 .contact-links {
@@ -268,11 +270,23 @@ textarea:focus {
 
 @media (min-width: 1024px) {
   .encryption-area {
-    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  textarea {
+    height: 55vh;
+  }
+  
+  .encryption-area {
+    height: auto;
   }
 }
 
 @media (max-width: 892px) {
+
   .toEncrypt_textArea,
   .toShow_textArea {
     height: 25vh;
@@ -288,6 +302,11 @@ textarea:focus {
   .toEncrypt_textArea,
   .toShow_textArea {
     height: 20vh;
+  }
+
+  .nav-bar ul {
+    gap: 1rem;
+    margin-right: 1.7rem;
   }
 }
 
