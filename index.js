@@ -5,7 +5,7 @@ function validateCaracters() {
 
 function informInvalid() {
   show_invalid_input = document.getElementById("if_invalid_input").innerHTML =
-    "ⓘ Solo letras minusculas y sin acentos";
+    "ⓘ Only lowercase letters and no accents";
 }
 
 function encrypt() {
